@@ -5,7 +5,7 @@
 }
 
 body{
-
+   background-color: #e7e4db;
 }
 
 /* logo and nav links */
@@ -18,10 +18,12 @@ body{
 #menu{
     font-size:110%;
     letter-spacing: 4px;
+    padding-top: 2.5em;
+    color: #749f78;
 }
 
 #menu, #logo{
-    line-height: 100px;
+    line-height: 30px;
 }
 
 #menu li{
