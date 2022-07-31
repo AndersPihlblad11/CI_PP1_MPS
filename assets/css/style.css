@@ -44,7 +44,16 @@ body{
     border-bottom: 1px solid;
 }
 
-/* Main image */
+/* Main image and Image text*/
+
+#image-text{
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top:35%;
+}
+
 
 #home-image-outer {
     height: 800px;
@@ -55,4 +64,5 @@ body{
     height: 600px;
     width: 100%;
     background: url('../css/images/Slide-image\ 2.webp') no-repeat center center;
+    position: relative;
 }
