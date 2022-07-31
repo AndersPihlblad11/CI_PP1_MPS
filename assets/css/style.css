@@ -12,6 +12,7 @@ body{
 
 #logo{
     float: left;
+    height:auto;
 }
 
 #menu{
@@ -20,7 +21,7 @@ body{
 }
 
 #menu, #logo{
-    line-height: 90px;
+    line-height: 100px;
 }
 
 #menu li{
@@ -31,7 +32,7 @@ body{
 
 #menu a{
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 
 }
 
@@ -41,4 +42,17 @@ body{
 
 .active{
     border-bottom: 1px solid;
+}
+
+/* Main image */
+
+#home-image-outer {
+    height: 800px;
+    width: 100%;
+    overflow:hidden;
+}
+#home-image{
+    height: 600px;
+    width: 100%;
+    background: url('../css/images/Slide-image\ 2.webp') no-repeat center center;
 }
