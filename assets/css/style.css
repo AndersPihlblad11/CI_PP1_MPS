@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab:wght@500&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -20,6 +22,7 @@ body{
     letter-spacing: 4px;
     padding-top: 2.5em;
     color: #749f78;
+    font-family: Roboto Slab, sans-serif;
 }
 
 #menu, #logo{
@@ -40,6 +43,7 @@ body{
 
 #menu a:hover {
     border-bottom: 1px solid;
+    
 }
 
 .active{
@@ -52,8 +56,9 @@ body{
     font-size: 70px;
     color: white;
     position: absolute;
-    left: 20%;
+    left: 17%;
     top:35%;
+    font-family: Merriweather, sans-serif;
 }
 
 
