@@ -92,6 +92,9 @@ body{
 
  #ethos p{
     font-size:1.2em;
+    padding-left: 10em;
+    padding-right:10em;
+
  }
 
 /* Body text and images*/
@@ -109,7 +112,8 @@ body{
 
 .container img{
     height: 300px;;
-    width: 350px;
+    width: 400px;
+    
 
     
 }
@@ -142,6 +146,7 @@ body{
 .img1{
     position: relative;
     padding-left: 2rem;
+    padding-right:2rem;
 
 }
 
@@ -152,5 +157,18 @@ body{
 
 .img3{
     position: relative;
-    padding-left: 2rem;
+    padding-left: 2em;
+    padding-right:2em;
+}
+
+.content{
+    width:50%;
+    text-align: center;
+    padding-left: 5em;
+}
+
+.content2{
+    width:50%;
+    text-align: center;
+    padding-right: 5rem;
 }
