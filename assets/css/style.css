@@ -74,6 +74,8 @@ body{
 #home-image{
     height: 600px;
     width: 100%;
+    background-position: center;
+    background-size: cover;
     background: url('../css/images/Slide-image\ 2.webp') no-repeat center center;
     position: relative;
 } 
@@ -111,12 +113,12 @@ body{
 }
 
 .container img{
-    height: 300px;;
+    height: 350px;
     width: 400px;
     
 
     
-}
+    }
 
 .container h2{
     margin:0;
@@ -171,4 +173,21 @@ body{
     width:50%;
     text-align: center;
     padding-right: 5rem;
+}
+
+/* buttons  youtube video "East Tutorials*/
+
+button{
+    width:100px;
+    color: white;
+    font-size:1em;
+    background:#749f78;
+    border:0;
+    Border-radius:8px;
+    outline:none;
+    margin-top:0px;
+}
+
+.button-b{
+    margin-top:1em;
 }
