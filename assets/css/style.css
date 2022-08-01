@@ -115,6 +115,7 @@ body{
 .container img{
     height: 350px;
     width: 400px;
+    border-radius: 10px;
     
 
     
@@ -175,6 +176,13 @@ body{
     padding-right: 5rem;
 }
 
+#activities-heading{
+    color: #749f78;
+    font-size:2em;
+    margin-top: 3em;
+    margin-bottom:1em;
+}
+
 /* buttons  youtube video "East Tutorials*/
 
 button{
@@ -190,4 +198,40 @@ button{
 
 .button-b{
     margin-top:1em;
+}
+
+/*Aventure section images and text*/
+ 
+.card{
+    width: 200px;
+    height:230px;
+    display:inline-block;
+    border-radius:10px;
+    padding:15px 25px;
+    box-sizing:border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background: url(images/Untitled\ \(230\ ×\ 200px\).png) ;
+}
+
+.card2{
+    background: url(images/elephant-2.jpg) ;
+}
+
+.card3{
+    background: url(images/elephant-1.jpg) ;
+}
+
+.card4{
+    background: url(images/elephant-1.jpg) ;
+}
+
+.card:hover{
+    transform: translateY(-10px);
 }
