@@ -10,6 +10,7 @@ body{
    background-color: #e7e4db;
    font-family: 'Roboto Condensed', sans-serif;
    text-align: center;
+
 }
 
 /* logo and nav links */
@@ -81,4 +82,33 @@ body{
 #ethos{
     margin-top:3em;
     margin-bottom: 3em;
+}
+
+/* Body text and images*/
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    padding: 40px;
+    width:80%;
+}
+
+.container img{
+    height:200px;
+    width: 250px;
+}
+
+.container h2{
+    margin:0;
+    color:#749f78
+}
+
+.container .imgbx{
+    display: inline;
+
+}
+
+.content{
+    float: left;
 }
