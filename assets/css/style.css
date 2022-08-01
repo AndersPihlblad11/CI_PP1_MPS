@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab:wght@500&display=swap');
+
 
 *{
     margin:0;
@@ -8,6 +8,7 @@
 
 body{
    background-color: #e7e4db;
+   font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* logo and nav links */
@@ -22,7 +23,7 @@ body{
     letter-spacing: 4px;
     padding-top: 2.5em;
     color: #749f78;
-    font-family: Roboto Slab, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #menu, #logo{
@@ -58,7 +59,7 @@ body{
     position: absolute;
     left: 17%;
     top:35%;
-    font-family: Merriweather, sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 
@@ -72,4 +73,4 @@ body{
     width: 100%;
     background: url('../css/images/Slide-image\ 2.webp') no-repeat center center;
     position: relative;
-}
+} 
