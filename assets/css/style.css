@@ -10,6 +10,7 @@ body{
    background-color: #e7e4db;
    font-family: 'Roboto Condensed', sans-serif;
    text-align: center;
+   font-size: 1em;
 
 }
 
@@ -81,8 +82,17 @@ body{
 
 #ethos{
     margin-top:3em;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
+
 }
+ #ethos h1{
+    color: #749f78;
+    font-size:2em;
+ }
+
+ #ethos p{
+    font-size:1.2em;
+ }
 
 /* Body text and images*/
 
@@ -91,12 +101,16 @@ body{
     display: flex;
     justify-content:space-between;
     padding: 40px;
-    width:80%;
+    width:100%;
+    align-items: center;
+    font-size: 1.2em;
+
 }
 
 .container img{
-    height:200px;
-    width: 250px;
+    height: 300px;;
+    width: 350px;
+
     
 }
 
@@ -105,11 +119,38 @@ body{
     color:#749f78
 }
 
-.container .imgbx{
-    display: inline;
+.content{
+    float: left;
+}
+
+#con-1{
+    background-color: white;
+    border:3px solid #749f78;
+    position: relative;
+    float:right;
+    
+}
+
+#con-3{
+    background-color: white;
+    border:3px solid #749f78;
+    position: relative;
+    float:right;
 
 }
 
-.content{
-    float: left;
+.img1{
+    position: relative;
+    padding-left: 2rem;
+
+}
+
+.img2{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.img3{
+    position: relative;
+    padding-left: 2rem;
 }
