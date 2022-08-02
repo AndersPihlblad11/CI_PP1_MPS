@@ -308,63 +308,42 @@ footer a {
     width: 100%;
 }
 
-.staff-grid:after {
-    clear: both;
-}
-
-.staff-grid:after, .staff-grid:before {
-         content: "";
-         display: table;
-}
-
-staff-grid li {
-    width: 328px;
-    height: 328px;
+.staff-grid li {
     display: inline-block;
-    margin: 20px;
+    padding: 1rem;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .staff-box {
-    width: 100%;
-    height: 100%;
+    height: 230px;
+    width:200px;
     position: relative;
-    cursor: pointer;
     border-radius: 10px;
-    transition: transform 0.5s;
-}
 
-staff:hover {
-    transform: translateY(-10px);
 }
 
 .staff-img {
-    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-    url(../css/images/Staff1.jpg);
+    background: url(../css/images/Staff1.jpg);
 }
 
 .staff-img1 {
-    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-    url(../css/images/Staff2.jpg);
+    background: url(../css/images/Staff2.jpg);
 }
 
 .staff-img2 {
-    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-    url(../css/images/Staff3.jpg);
+    background: url(../css/images/Staff3.jpg);
 }
 
 .staff-img3 {
-    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-    url(../css/images/Staff4.jpg);
+    background: url(../css/images/Staff4.jpg);
 }
 
 .staff-img4 {
-    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-    url(../css/images/Staff5.jpg);
+    background: url(../css/images/Staff5.jpg);
 }
 
 .staff-img5 {
-    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
-    url(../css/images/staff6.jpg);
+    background: url(../css/images/staff6.jpg);
 }
 
 
