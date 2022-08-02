@@ -220,34 +220,44 @@ header{
 }
 
 /*aventure section images and text*/
+.activities-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+}
+
 .card {
-    width: 200px;
     height: 230px;
-    display: inline-block;
     border-radius: 10px;
-    padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 10px 15px;
-    background-position: center;
-    background-size: cover;
+    padding: 1rem;
+    color: #fff;
     transition: transform 0.5s;
+    box-shadow: rgb(0 0 0 / 10%) 0 4px 8px;
 }
 
 .card1 {
     background: url(images/Untitled\ \(230\ ×\ 200px\).png) ;
+    background-size: cover;
 }
 
 .card2 {
     background: url(images/elephant-2.jpg) ;
+    background-size: cover;
 }
 
 .card3 {
     background: url(images/elephant-1.jpg) ;
+    background-size: cover;
 }
 
 .card4 {
     background: url(images/elephant-1.jpg) ;
+    background-size: cover;
 }
 
 .card:hover {
