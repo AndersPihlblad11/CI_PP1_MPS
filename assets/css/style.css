@@ -293,14 +293,51 @@ footer a {
 }
 
 /*Our story text and images*/
+.our-trusted-staff-heading {
+    color: #749f78;
+    font-size: 2em;
+    margin-top: 1.5rem;
+}
+
+.our-story-ethos {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 0 2rem;
+}
+
+.our-story-ethos h1 {
+    color: #749f78;
+    font-size: 2rem;
+ }
+
+ .our-story-ethos p {
+    font-size: 1rem;
+   margin-top: 1rem;
+   padding-left: 10em;
+   padding-right: 10em;
+   letter-spacing: 0.015rem;
+   line-height: 1.3rem;
+   color: #2b2b2b;
+   margin-bottom: 2rem;;
+ }
+
 .staff-section {
     max-width: 960px;
     margin: 0 auto;
     padding: 6% 2%;
+    border: 2px solid #749f78;
+    background-color: white;
+}
+
+.staff-section h4 {
+    color: #749f78;
+}
+
+.staff-section h3 {
+    color: #749f78;
 }
 
 .staff-grid {
-    margin: 20px 0 0 0;
     padding:0;
     list-style: none;
     display: block;
