@@ -292,27 +292,36 @@ footer a {
     font-size: 1.5em;
 }
 
-/*test code*/
-.section {
-    background-color: #749f78;
+/*Our story text and images*/
+.staff1 {
+    background: url(images/Staff1.jpg) center;
+    background-size: cover;
 }
 
-.section img {
-      height: 250px;
-      display:flex;
-      justify-content: space-between;
-      padding: 40px;
-      width: 60%;
-      margin: 10rem auto 0 auto;
+.staff2 {
+    background: url(images/Staff3.jpg) center;
+    background-size: cover;
 }
 
-.section h2{
-    color: #fff;
+.staff3 {
+    background: url(images/Staff4.jpg) center;
+    background-size: cover;
 }
 
-.section p {
-    color:#fff;
-    margin-right: 15px;
+.staff4 {
+    background: url(images/Staff5.jpg) center;
+    background-size: cover;
 }
+
+.staff5 {
+    background: url(images/staff6.jpg) center;
+    background-size: cover;
+}
+
+.staff6 {
+    background: url(images/Staff2.jpg) center;
+    background-size: cover;
+}
+
 
 
