@@ -200,15 +200,19 @@ header{
 }
 
 /* buttons  youtube video "East Tutorials*/
-button {
-    width: 100px;
+.button-general {
+    width: 100%;
     color: white;
-    font-size: 1em;
+    font-size: 0.95rem;
     background: #749f78;
-    border: 0;
+    border: none;
     Border-radius: 8px;
     outline: none;
-    margin-top: 0px;
+    margin-top: 0;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: rgb(0 0 0 / 5%) 1px 2px 5px 2px;
 }
 
 .button-b {
