@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -8,21 +7,20 @@
 }
 
 body {
-   background-color: #e7e4db;
+   background-color: #f9fcf8;
    font-family: 'Roboto Condensed', sans-serif;
    text-align: center;
-   font-size: 1em;
+   font-size: 1rem;
 }
 
-/*header section*/
-
-header{
-    display:flex;
+/* logo and nav links */
+header {
+    display: flex;
     justify-content: space-between;
     padding: 0 1rem;
 }
 
-header nav{
+header nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +35,7 @@ header nav{
     letter-spacing: 4px;
     color: #749f78;
     font-family: 'Roboto Condensed', sans-serif;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -64,24 +62,22 @@ header nav{
 
 #menu a:hover {
     border-bottom: 1px solid;
-    
 }
 
 .active {
     border-bottom: 1px solid;
 }
 
-/* main image and Image text*/
+/* Main image and Image text */
 #image-text {
     font-size: 70px;
     color: white;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
     font-family: 'Roboto Slab', serif;
-    width:100%;
-
+    width: 100%;
 }
 
 #home-image-outer {
@@ -93,42 +89,42 @@ header nav{
 #home-image {
     height: 600px;
     width: 100%;
-    background-position: center;
-    background-size: cover;
+    background-image: url('../css/images/Slide-image\ 2.webp');
     background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background: url('../css/images/Slide-image\ 2.webp') no-repeat center center;
-    position: relative;
+    background-size: cover;
 } 
 
-/* company ethos headings and text*/
+/* Company ethos headings and text*/
 #ethos {
-    margin-top:3rem;
-    margin-bottom: 3rem;
+    margin-top: 3em;
+    margin-bottom: 3em;
     padding: 0 2rem;
 }
- #ethos h1 {
-    color: #749f78;
-    font-size:2em;
+
+#ethos h1 {
+   color: #749f78;
+   font-size: 2rem;
 }
 
 #ethos p {
-    font-size: 1rem;
-    margin-top: 1rem;
-    padding-left: 10em;
-    padding-right: 10em;
-    letter-spacing: 0.015rem;
-    line-height: 1.3rem;
-    color: #2b2b2b; 
- } 
+   font-size: 1rem;
+   margin-top: 1rem;
+   padding-left: 10em;
+   padding-right: 10em;
+   letter-spacing: 0.015rem;
+   line-height: 1.3rem;
+   color: #2b2b2b; 
+}
 
-/* body text and images*/
+/* Body text and images*/
 .container {
     position: relative;
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    width:100%;
+    width: 100%;
     align-items: center;
 }
 
@@ -145,7 +141,7 @@ header nav{
 }
 
 .container h2 {
-    margin: 0;
+    margin:0;
     color:#749f78
 }
 
@@ -160,8 +156,8 @@ header nav{
 
 #con-1 {
     background-color: white;
-    border: 3px solid #749f78;
-    position: relative;  
+    border:3px solid #749f78;
+    position: relative;
 }
 
 #con-3 {
@@ -174,7 +170,6 @@ header nav{
     position: relative;
     padding-left: 2rem;
     padding-right: 2rem;
-
 }
 
 .img2 {
@@ -205,7 +200,7 @@ header nav{
     margin-bottom: 1.5rem;
 }
 
-/* buttons  youtube video "East Tutorials*/
+/* Buttons youtube video "East Tutorials*/
 .button-general {
     width: 100%;
     color: white;
@@ -225,7 +220,7 @@ header nav{
     margin-top: 1em;
 }
 
-/*aventure section images and text*/
+/* Adventure section images and text*/
 .activities-card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -234,7 +229,7 @@ header nav{
     padding: 0 2rem;
     margin-bottom: 1.5rem;
 }
-
+ 
 .card {
     height: 230px;
     border-radius: 10px;
@@ -247,22 +242,22 @@ header nav{
 }
 
 .card1 {
-    background: url(images/Untitled\ \(230\ ×\ 200px\).png) ;
+    background: url(images/zipplining1.jpg) center;
     background-size: cover;
 }
 
 .card2 {
-    background: url(images/elephant-2.jpg) ;
+    background: url(images/safari.jfif) center;
     background-size: cover;
 }
 
 .card3 {
-    background: url(images/elephant-1.jpg) ;
+    background: url(images/night\ drive.jpg) center;
     background-size: cover;
 }
 
 .card4 {
-    background: url(images/elephant-1.jpg) ;
+    background: url(images/cruise.jfif) center;
     background-size: cover;
 }
 
@@ -270,7 +265,7 @@ header nav{
     transform: translateY(-10px);
 }
 
-/* footer styling*/
+/* Footer styling*/
 footer {
     background-color: #749f78;
     width: 100%;
@@ -284,15 +279,15 @@ footer {
     padding: 2em 2em ;
 }
 
-.footer2 {
-    padding: 2rem 2rem;
+.footer2{
+    padding: 2em 2em;
 }
 
-.footer3 {
-    padding: 2rem 3rem;
+.footer3{
+    padding: 2em 3em;
 }
 
 footer a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
