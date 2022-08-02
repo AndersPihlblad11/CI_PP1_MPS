@@ -293,44 +293,78 @@ footer a {
 }
 
 /*Our story text and images*/
-.staff1 {
-    background: url(images/Staff1.jpg) center;
-    background-size: cover;
+.staff-section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 6% 2%;
 }
 
-.staff2 {
-    background: url(images/Staff3.jpg) center;
-    background-size: cover;
+.staff-grid {
+    margin: 20px 0 0 0;
+    padding:0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
 }
 
-.staff3 {
-    background: url(images/Staff4.jpg) center;
-    background-size: cover;
+.staff-grid:after {
+    clear: both;
 }
 
-.staff4 {
-    background: url(images/Staff5.jpg) center;
-    background-size: cover;
+.staff-grid:after, .staff-grid:before {
+         content: "";
+         display: table;
 }
 
-.staff5 {
-    background: url(images/staff6.jpg) center;
-    background-size: cover;
+staff-grid li {
+    width: 328px;
+    height: 328px;
+    display: inline-block;
+    margin: 20px;
 }
 
-.staff6 {
-    background: url(images/Staff2.jpg) center;
-    background-size: cover;
+.staff-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s;
 }
 
-.our-staff-card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    gap: 1rem;
-    padding: 0 2rem;
-    margin-bottom: 1.5rem;
+staff:hover {
+    transform: translateY(-10px);
 }
 
+.staff-img {
+    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url(../css/images/Staff1.jpg);
+}
+
+.staff-img1 {
+    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url(../css/images/Staff2.jpg);
+}
+
+.staff-img2 {
+    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url(../css/images/Staff3.jpg);
+}
+
+.staff-img3 {
+    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url(../css/images/Staff4.jpg);
+}
+
+.staff-img4 {
+    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url(../css/images/Staff5.jpg);
+}
+
+.staff-img5 {
+    background: linear-gradient (rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+    url(../css/images/staff6.jpg);
+}
 
 
