@@ -323,5 +323,14 @@ footer a {
     background-size: cover;
 }
 
+.our-staff-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+}
+
 
 
