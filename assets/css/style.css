@@ -424,5 +424,12 @@ footer a {
     transition: 0.5s;
 }
 
+.radio-btn span {
+    color: white;
+    margin-right: 5px;
+    font-size: 12px;
+
+}
+
 
 
