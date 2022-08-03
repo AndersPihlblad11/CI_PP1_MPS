@@ -389,7 +389,8 @@ footer a {
 
 /*booking form styles with help from east tutorials*/
 .booking-form-box {
-    max-width : 400px;
+    max-width : 500px;
+    height: 400px;
     background-color: #749f78;
     margin: 10%;
 
@@ -397,6 +398,7 @@ footer a {
 
 .radio-btn {
     margin: 0 20px;
+    padding: 1rem 1rem;
 }
 
 .radio-btn .btn {
@@ -430,6 +432,44 @@ footer a {
     font-size: 12px;
 
 }
+
+.booking-form {
+    padding: 0 20px 20px;
+}
+
+.booking-form label {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.fname {
+    display: inline-block;
+    padding: 0.7rem;
+}
+
+.lname {
+    display: inline-block;
+    padding: 0.7rem;
+}
+
+input::placeholder {
+    color: white !important;
+}
+
+.input-grp {
+    width: 151px;
+    display: inline-block;
+}
+
+.form-control {
+    font-size: 12px !important;
+    border-radius: 10px !important;
+    color: #749f78 !important;
+}
+
+
 
 
 
