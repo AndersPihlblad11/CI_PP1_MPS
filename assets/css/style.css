@@ -13,6 +13,10 @@ body {
    font-size: 1rem;
 }
 
+/* Media queries*/
+
+
+
 /* logo and nav links */
 header {
     display: flex;
@@ -135,7 +139,7 @@ header nav {
 
 .container img {
     height: auto;
-    width: 100%;
+    max-width: 60%;
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 10%) 0 4px 8px;
 }
@@ -156,7 +160,7 @@ header nav {
 
 #con-1 {
     background-color: white;
-    border:3px solid #749f78;
+    border: 3px solid #749f78;
     position: relative;
 }
 
@@ -383,4 +387,10 @@ footer a {
     background: url(../css/images/staff6.jpg);
 }
 
+/*booking form styles*/
+.booking-form-box {
+    max-width : 400px;
+    background-color: #749f78;
+    margin: 10%;
 
+}
