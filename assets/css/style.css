@@ -471,11 +471,61 @@ input::placeholder {
 */
 
 .booking-form-box {
-    max-width : 550px;
-    height: 400px;
+    max-width : 600px;
+    height: auto;
     background-color: #749f78;
-    margin: 10%;
+    margin-left: 30%;
+    border-radius: 5px; 
+    position: absolute;
+    top: 20%;
 }
+
+.book-heading {
+     font-size: 25px;
+     color: #749f78;
+     text-align: center;
+     padding: 2rem 2rem;
+}
+
+#booking-section-img-outer {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.booking-section-img {
+    background-image: url(images/elephant-1.jpg);
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.radio-btn {
+    padding: 1.5rem 0 2.5rem 0;
+    word-spacing: 0.2rem;
+}
+
+.fname {
+    padding: 0 1rem 2rem 0;
+}
+
+.lname {
+    padding: 0 1rem 2rem 0;
+}
+
+.form-control {
+    font-size: 15px;
+    border-spacing: 2rem;
+}
+
+.input-grp {
+    display:inline-block;
+    padding: 1rem 1rem;
+}
+
 
 
 
