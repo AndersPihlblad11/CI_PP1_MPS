@@ -387,9 +387,9 @@ footer a {
     background: url(../css/images/staff6.jpg);
 }
 
-/*booking form styles with help from east tutorials*/
+/*booking form styles with help from east tutorials
 .booking-form-box {
-    max-width : 500px;
+    max-width : 550px;
     height: 400px;
     background-color: #749f78;
     margin: 10%;
@@ -440,7 +440,7 @@ footer a {
 .booking-form label {
     margin-bottom: 5px;
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 15px;
     color: white;
 }
 
@@ -461,12 +461,20 @@ input::placeholder {
 .input-grp {
     width: 151px;
     display: inline-block;
+    padding: 0.7rem;
 }
 
 .form-control {
-    font-size: 12px !important;
+    font-size: 15px !important;
     border-radius: 10px !important;
     color: #749f78 !important;
+*/
+
+.booking-form-box {
+    max-width : 550px;
+    height: 400px;
+    background-color: #749f78;
+    margin: 10%;
 }
 
 
