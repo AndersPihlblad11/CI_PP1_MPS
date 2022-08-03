@@ -387,10 +387,42 @@ footer a {
     background: url(../css/images/staff6.jpg);
 }
 
-/*booking form styles*/
+/*booking form styles with help from east tutorials*/
 .booking-form-box {
     max-width : 400px;
     background-color: #749f78;
     margin: 10%;
 
 }
+
+.radio-btn {
+    margin: 0 20px;
+}
+
+.radio-btn .btn {
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+
+.radio-btn .btn::after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+
+.radio-btn .btn:checked::after {
+    content: '';
+    background-color: #749f78;
+    transition: 0.5s;
+}
+
+
+
