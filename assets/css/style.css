@@ -130,8 +130,8 @@ header nav {
 }
 
 .container img {
-    height: auto;
-    max-width: 60%;
+    height: 200px;
+    max-width: 100%;
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 10%) 0 4px 8px;
 }
@@ -153,17 +153,14 @@ header nav {
 #con-1 {
     background-color: white;
     border: 3px solid #749f78;
-    position: relative;
 }
 
 #con-3 {
     background-color: white;
     border: 3px solid #749f78;
-    position: relative;
 }
 
 .img1 {
-    position: relative;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -181,7 +178,7 @@ header nav {
 }
 
 .content {
-    width: 50%;
+    max-width: 50%;
     text-align: center;
 }
 
@@ -237,6 +234,7 @@ header nav {
     height: 230px;
     border-radius: 10px;
     box-sizing: border-box;
+    width: 100%;
     cursor: pointer;
     padding: 1rem;
     color: #fff;
@@ -318,12 +316,10 @@ footer a {
  .our-story-ethos p {
     font-size: 1rem;
    margin-top: 1rem;
-   padding-left: 10em;
-   padding-right: 10em;
    letter-spacing: 0.015rem;
    line-height: 1.3rem;
    color: #2b2b2b;
-   margin-bottom: 2rem;;
+   margin-bottom: 2rem;
  }
 
 .staff-section {
