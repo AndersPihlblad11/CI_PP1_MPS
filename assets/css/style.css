@@ -602,7 +602,29 @@ footer a {
     }
 }
 
+@media only screen and (max-width: 450px) {
+    .footer1, .footer2, .footer3 {
+        padding: 0.5rem;
+    }
+}
 
+@media only screen and (max-width: 400px) {
+    #image-text {
+        font-size: 40px;
+    }
+
+    #home-image {
+        height: 450px;
+    }
+
+    #ethos {
+        padding: 0 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
 
 
 
