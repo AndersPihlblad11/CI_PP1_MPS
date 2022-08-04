@@ -89,7 +89,7 @@ header nav {
 #home-image {
     height: 600px;
     width: 100%;
-    background-image: url('../css/images/Slide-image\ 2.webp');
+    background-image: url('../css/images/home_main_.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -249,22 +249,22 @@ header nav {
 }
 
 .card1 {
-    background: url(images/activities-zip-lining.jpg) center;
+    background: url(images/ziplinning_.jpg) center;
     background-size: cover;
 }
 
 .card2 {
-    background: url(images/safari.jfif) center;
+    background: url(images/safari.jpg) center;
     background-size: cover;
 }
 
 .card3 {
-    background: url(images/night\ drive.jpg) center;
+    background: url(images/night_drive.jpg) center;
     background-size: cover;
 }
 
 .card4 {
-    background: url(images/activities-cruise-img.jpg) center;
+    background: url(images/activities_cruise.jpg) center;
     background-size: cover;
 }
 
@@ -370,27 +370,27 @@ footer a {
 }
 
 .staff-img {
-    background: url(../css/images/Staff1.jpg);
+    background: url(../css/images/staff_1.jpg);
 }
 
 .staff-img1 {
-    background: url(../css/images/Staff2.jpg);
+    background: url(../css/images/staff_2.jpg);
 }
 
 .staff-img2 {
-    background: url(../css/images/Staff3.jpg);
+    background: url(../css/images/staff_3.jpg);
 }
 
 .staff-img3 {
-    background: url(../css/images/Staff4.jpg);
+    background: url(../css/images/staff_4.jpg);
 }
 
 .staff-img4 {
-    background: url(../css/images/Staff5.jpg);
+    background: url(../css/images/staff_5.jpg);
 }
 
 .staff-img5 {
-    background: url(../css/images/staff6.jpg);
+    background: url(../css/images/staff_6.jpg);
 }
 
 /* Booking form */
@@ -419,7 +419,7 @@ footer a {
 }
 
 .booking-section-img {
-    background-image: url(images/Slide-image.webp);
+    background-image: url(images/book_now_background.jpg);
     height: 600px;
     width: 100%;
     background-attachment: fixed;
@@ -485,6 +485,27 @@ footer a {
     margin: 0 1rem 2rem 1rem;
 }
 
+/*Media queries */
+
+@media screen and (max-width: 715px){
+     #ethos {
+        width: 65%;
+        height: 715px;
+        margin: 0 auto;
+     }
+
+     #con-1 {
+         width: 100%;
+         padding:0;
+     }
+
+     .img1 {
+        clear: both;
+        width: 100%;
+        float: right;
+        padding: 0;
+     }
+}
 
 
 
