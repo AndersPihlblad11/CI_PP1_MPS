@@ -219,7 +219,7 @@ header nav {
 }
 
 .button-general:hover {
-    background-color: white; /* Green */
+    background-color: white;
     color: #749f78;
 }
 
@@ -450,6 +450,29 @@ footer a {
 .input-grp {
     display:inline-block;
     padding: 1rem 1rem;
+    
+}
+
+.button-form {
+    width: 100%;
+    color: #749f78;
+    font-size: 0.95rem;
+    background: white;
+    border: 0.2 rem solid #749f78;
+    Border-radius: 8px;
+    outline: none;
+    margin-top: 0;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: rgb(0 0 0 / 5%) 1px 2px 5px 2px;
+    transition-duration: 0.5s;
+    border: 1px solid black;
+}
+
+.button-form:hover {
+    background-color:#749f78;
+    color: white;
 }
 
 
