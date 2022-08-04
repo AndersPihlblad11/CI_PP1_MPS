@@ -295,10 +295,10 @@ footer {
 }
 
 footer a {
-    color: white;
     font-size: 2em;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #f6f5f0;
 }
 
 /*Our story text and images*/
@@ -453,6 +453,7 @@ footer a {
     
 }
 
+/*form button styling*/
 .button-form {
     width: 100%;
     color: #749f78;
@@ -474,6 +475,16 @@ footer a {
     background-color:#749f78;
     color: white;
 }
+
+.booking-form h1 {
+      margin-top: 4rem;
+      margin-bottom: 1rem;
+}
+
+.booking-form p {
+    margin: 0 1rem 2rem 1rem;
+}
+
 
 
 
