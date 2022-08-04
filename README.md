@@ -67,8 +67,6 @@
 - Appealing and fun to go through.
 
 ### User Stories
-
-### User Stories
 1. As a user, I want to know what to expect.
 2. As a user, I want to know the back story of the business.
 3. As a user, I want to know the price range.
@@ -85,6 +83,47 @@
 
 ### Design Choices
 The webpage was designed to give the user the feeling of Adventure,comfort, style and luxury. The imagery gives the customer a great understanding of what is on offer and really has an inviting presence.
+
+### Colour
+For my color theme I didn't want to pack the web page with too many deep colors which in my view would make it look less profesional, so I stuck to a greenish type of theme which gives the feel of wilderness but calmness aswell. I got my color choice from Color Hunt.
+<br>
+
+IMAGE HERE!
+
+### Fonts
+The fonts I used were Roboto Condensed for the body and "Roboto Slab" for headings. I used Google fonts to extract both.
+
+### Stucture
+the is nothing out of the usual with my website. it carries the basic nav bar and logo, the home image is beautiful and sleek and adds great to the look as do all the other pictures and sections. My website consists of 5 pages all with a unique layout.
+
+- Home page has the nav and logo then the main heading and picture, Suite,Activities and our story sections which have buttons which lead to each respective page and under that we have the footer which is present and stagnant in all pages. 
+
+IMAGE HERE (HOME PAGE)
+
+- Suite page has the nav and logo then a big heading and short descriptive text, it has sections with the different suites and a short description, pricing with buttons that lead the user to the book now page and under that we have the footer which is present and stagnant in all pages.
+
+IMAGE HERE(Suite page)
+
+- Our story page had the nav and logo to start then a header and a text describing the origin story of the lodge and under thaty is a section with the images of the staff and under that is the footer.
+
+IMAGE (Our story page)
+
+- Book now page has a beautiful back ground picture and a form on top of it with the a button that leads the user to the thank you page.
+
+IMAGE (Book now page )
+
+- Thank you page is what the user gets to after they have submitted their accomidation and dates.
+
+IMAGE ( thank you section)
+
+
+
+
+
+
+
+
+
 
 
 
