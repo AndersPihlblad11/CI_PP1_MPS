@@ -75,4 +75,16 @@
 4. As a user, I want to view the accomodation.
 5. As a user, I i want to know if i will be safe.
 
+#### Site Owner 
+6. As the site owner, I want users to have a good idea of what to expect.
+7. As the site owner, I want users to experience what we have to offer through images.
+8. As the site owner, I want the user to understand our vision and back story.
+9. As the site owner, I would want a good logo.
+
+## Design
+
+### Design Choices
+The webpage was designed to give the user the feeling of Adventure,comfort, style and luxury. The imagery gives the customer a great understanding of what is on offer and really has an inviting presence.
+
+
 
