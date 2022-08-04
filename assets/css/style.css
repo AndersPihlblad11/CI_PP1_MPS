@@ -13,10 +13,6 @@ body {
    font-size: 1rem;
 }
 
-/* Media queries*/
-
-
-
 /* logo and nav links */
 header {
     display: flex;
@@ -32,7 +28,6 @@ header nav {
 
 #logo {
     height: auto;
-    border-image: url(../css/images/Mapoma\ Safari\ \(2\).png);
 }
 
 #menu {
@@ -180,6 +175,7 @@ header nav {
 .img2 {
     padding-right: 2rem;
     padding-left: 2rem;
+
 }
 
 .img3 {
@@ -456,9 +452,6 @@ footer a {
     padding: 1rem 1rem;
 }
 
-a:hover {
-
-}
 
 
 
