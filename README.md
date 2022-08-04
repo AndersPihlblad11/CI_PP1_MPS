@@ -36,3 +36,43 @@
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+
+## Project Goals 
+
+### User Goals
+- Finding unique vaction destination.
+- Having a clear view of what to expect.
+- Have infomation about the Suites.
+- Having a clear engaging story about the lodge.
+
+### Site Owner Goals
+- Have a luring story and theme.
+- Clear visual representation of whats on offer.
+- Clear and smooth website layout.
+- Provide easy access for contact to customers.
+
+## User Experience
+
+### Target Audience
+- People looking for a differnt vacation experience.
+- Animal lovers.
+- Tourists.
+
+### User Requirements and Expectations
+
+- Flowing and easy to understand layout.
+- Good presentation and visually appealing regardless of screen size.
+- Detailed description of what to expect.
+- Authentic and professional feel to the website.
+- Appealing and fun to go through.
+
+### User Stories
+
+### User Stories
+1. As a user, I want to know what to expect.
+2. As a user, I want to know the back story of the business.
+3. As a user, I want to know the price range.
+4. As a user, I want to view the accomodation.
+5. As a user, I i want to know if i will be safe.
+
+
