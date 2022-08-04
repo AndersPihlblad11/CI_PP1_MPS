@@ -478,8 +478,21 @@ footer a {
 }
 
 /*Media queries */
+@media only screen and (max-width: 1250px) {
+    .activities-card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
+@media only screen and (max-width: 950px) {
+    #image-text {
+        font-size: 60px;
+    }
 
+    .activities-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 
 
