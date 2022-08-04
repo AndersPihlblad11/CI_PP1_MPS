@@ -626,5 +626,44 @@ footer a {
     }
 }
 
+@media only screen and (max-width: 350px) {
+    #image-text {
+        font-size: 35px;
+        line-height: 4rem;
+    }
+
+    #home-image {
+        height: 400px;
+    }
+
+    #activities-heading {
+        font-size: 1.6rem;
+    }
+
+    #ethos h1 {
+        font-size: 1.6rem;
+    }
+
+    #ethos p {
+        font-size: 0.90rem;
+    }
+
+    .our-story-ethos h1 {
+        font-size: 1.6rem;
+    }
+
+    .our-story-ethos p {
+        font-size: 0.90rem;
+    }
+
+    .container h2 {
+        font-size: 1.4rem;
+    }
+
+    .container p {
+        font-size: 0.90rem;
+    }
+}
+
 
 
