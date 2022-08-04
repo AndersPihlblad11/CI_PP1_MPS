@@ -560,6 +560,48 @@ footer a {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    #home-image {
+        height: 500px;
+    }
+
+    .footer1 h3, .footer2 h3, .footer3 h3 {
+        font-size: 1rem;
+    }
+
+    .footer1 p, .footer2 p, .footer3 p {
+        font-size: 0.8rem;
+    }
+
+    #activities-heading {
+        font-size: 1.8rem;
+    }
+
+    #ethos h1 {
+        font-size: 1.8rem;
+    }
+
+    #ethos p {
+        font-size: 0.95rem;
+    }
+
+    .our-story-ethos h1 {
+        font-size: 1.8rem;
+    }
+
+    .our-story-ethos p {
+        font-size: 0.95rem;
+    }
+
+    .container h2 {
+        font-size: 1.6rem;
+    }
+
+    .container p {
+        font-size: 0.95rem;
+    }
+}
+
 
 
 
