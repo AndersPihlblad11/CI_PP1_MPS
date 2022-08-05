@@ -33,7 +33,7 @@
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
-9. [Deployment](#deployment)
+9. [Deployment](#deployment
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
@@ -161,6 +161,13 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 <details><summary>style.css</summary>
 <img src="docs/validations/css_validation.png">
+</details>
+
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+
+<details><summary>Whole page</summary>
+<img src="docs/wireframes/performance.png">
 </details>
 
 
