@@ -116,6 +116,44 @@ IMAGE (Book now page )
 
 IMAGE ( thank you section)
 
+### Wireframes
+<details><summary>Home</summary>
+<img src="docs/wireframes/homepage-wireframe.png">
+</details>
+<details><summary>Our Story</summary>
+<img src="docs/wireframes/ourstory-wireframe.png">
+</details>
+<details><summary>Suites</summary>
+<img src="docs/wireframes/suites-wireframe.png">
+</details>
+<details><summary>Book Now</summary>
+<img src="docs/wireframes/booknow-wireframe.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/wireframes-contact.png">
+</details>
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+- java Script
+
+### Frameworks & Tools
+- Git
+- GitHub
+- Gitpod
+- Color Hunt
+- Balsamiq
+- Google Fonts
+- VS code
+- Font Awsome
+- Canva
+
+
+
+
 
 
 
