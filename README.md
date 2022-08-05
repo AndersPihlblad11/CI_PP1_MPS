@@ -151,6 +151,14 @@ IMAGE ( thank you section)
 - Font Awsome
 - Canva
 
+## Validation
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. 
+
+<details><summary>HTML</summary>
+<img src="docs/validations/html_validation.png">
+</details>
 
 
 
