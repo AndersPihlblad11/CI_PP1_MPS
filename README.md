@@ -1,7 +1,7 @@
 # Mapoma Safari
 (Developer: Anders Pihlblad)
 
-![Mockup image](docs/i_am_responsive/iamresponsive.jpg)
+![Mockup image](docs/wireframes/i_am_responsive/iamresponsive.jpg)
 
 [Live webpage](http://anderspihlblad11.github.io/CI_PP1_MPS/)
 
@@ -27,15 +27,11 @@
 6. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
-    3. [Accessibility](#accessibility)
-    4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
-8. [Bugs](#Bugs)
-9. [Deployment](#deployment
-10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
+    3. [Performance](#performance)
+    4. [Device testing](#performing-tests-on-various-devices)
+    5. [Browser compatibility](#browser-compatability)
+6. [Credits](#credits)
+7. [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
 
@@ -154,21 +150,28 @@ IMAGE ( thank you section)
 The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 <details><summary>HTML</summary>
-<img src="docs/validations/html_validation.png">
+<img src="docs/wireframes/validations/html_validation.png">
 </details>
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 <details><summary>style.css</summary>
-<img src="docs/validations/css_validation.png">
+<img src="docs/wireframes/validations/css_validation.png">
 </details>
 
 ### Performance 
-Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+web.dev was used to test the performance of the website. 
 
 <details><summary>Whole page</summary>
-<img src="docs/wireframes/performance.png">
+<img src="docs/wireframes/performance/performance.png">
 </details>
+
+### Performing tests on various devices 
+The website was tested on the following devices:
+- lenovo laptop
+- iphone 13
+- iphone 5
+
 
 
 
