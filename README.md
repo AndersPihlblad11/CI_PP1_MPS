@@ -12,7 +12,7 @@
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
@@ -23,15 +23,12 @@
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
-5. [Features](#features)
-6. [Testing](#validation)
+5. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [Performance](#performance)
     4. [Device testing](#performing-tests-on-various-devices)
-    5. [Browser compatibility](#browser-compatability)
-6. [Credits](#credits)
-7. [Acknowledgements](#acknowledgements)
+5. [References](#references)
 
 ## Project Goals 
 
@@ -82,9 +79,6 @@ The webpage was designed to give the user the feeling of Adventure,comfort, styl
 
 ### Colour
 For my color theme I didn't want to pack the web page with too many deep colors which in my view would make it look less profesional, so I stuck to a greenish type of theme which gives the feel of wilderness but calmness aswell. I got my color choice from Color Hunt.
-<br>
-
-IMAGE HERE!
 
 ### Fonts
 The fonts I used were Roboto Condensed for the body and "Roboto Slab" for headings. I used Google fonts to extract both.
@@ -94,23 +88,46 @@ the is nothing out of the usual with my website. it carries the basic nav bar an
 
 - Home page has the nav and logo then the main heading and picture, Suite,Activities and our story sections which have buttons which lead to each respective page and under that we have the footer which is present and stagnant in all pages. 
 
-IMAGE HERE (HOME PAGE)
-
-- Suite page has the nav and logo then a big heading and short descriptive text, it has sections with the different suites and a short description, pricing with buttons that lead the user to the book now page and under that we have the footer which is present and stagnant in all pages.
-
-IMAGE HERE(Suite page)
+<details><summary>Home section 1</summary>
+<img src="docs/wireframes/pages/hp_section1.png">
+</details>
+<details><summary>Home section 2</summary>
+<img src="docs/wireframes/pages/hp_section2.png">
+</details>
+<details><summary>Home section 3</summary>
+<img src="docs/wireframes/pages/hp_section3.png">
+</details>
 
 - Our story page had the nav and logo to start then a header and a text describing the origin story of the lodge and under thaty is a section with the images of the staff and under that is the footer.
 
-IMAGE (Our story page)
+<details><summary>Our story Section 1</summary>
+<img src="docs/wireframes/pages/os_section1.png">
+</details>
+<details><summary>Our story section 2</summary>
+<img src="docs/wireframes/pages/os_section2.png">
+</details>
+
+
+- Suite page has the nav and logo then a big heading and short descriptive text, it has sections with the different suites and a short description, pricing with buttons that lead the user to the book now page and under that we have the footer which is present and stagnant in all pages.
+
+<details><summary>Suites section 1</summary>
+<img src="docs/wireframes/pages/s_section1.png">
+</details>
+<details><summary>Suites section 2</summary>
+<img src="docs/wireframes/pages/s_section2.png">
+</details>
+
 
 - Book now page has a beautiful back ground picture and a form on top of it with the a button that leads the user to the thank you page.
-
-IMAGE (Book now page )
+<details><summary>Book Now section 1</summary>
+<img src="docs/wireframes/pages/bp_section1.png">
+</details>
 
 - Thank you page is what the user gets to after they have submitted their accomidation and dates.
+<details><summary>Thank you page section 1</summary>
+<img src="docs/wireframes/pages/ty_page.png">
+</details>
 
-IMAGE ( thank you section)
 
 ### Wireframes
 <details><summary>Home</summary>
@@ -171,6 +188,15 @@ The website was tested on the following devices:
 - lenovo laptop
 - iphone 13
 - iphone 5
+
+### References
+- Easy tutorials    (youtube)
+- Slack student care
+- Udemy
+- My fellow student Ana
+- My Mentor Mo 
+- And my good friend Daniel
+
 
 
 
