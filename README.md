@@ -1,7 +1,7 @@
 # Mapoma Safari
 (Developer: Anders Pihlblad)
 
-![Mockup image](docs/am-i-responsive.jpg)
+![Mockup image](docs/i_am_responsive/iamresponsive.png)
 
 [Live webpage](http://anderspihlblad11.github.io/CI_PP1_MPS/)
 
@@ -158,6 +158,12 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 <details><summary>HTML</summary>
 <img src="docs/validations/html_validation.png">
+</details>
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+<details><summary>style.css</summary>
+<img src="docs/validations/css_validation.png">
 </details>
 
 
