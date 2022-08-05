@@ -1,7 +1,7 @@
 # Mapoma Safari
 (Developer: Anders Pihlblad)
 
-![Mockup image](docs/i_am_responsive/iamresponsive.png)
+![Mockup image](docs/i_am_responsive/iamresponsive.jpg)
 
 [Live webpage](http://anderspihlblad11.github.io/CI_PP1_MPS/)
 
@@ -128,9 +128,6 @@ IMAGE ( thank you section)
 </details>
 <details><summary>Book Now</summary>
 <img src="docs/wireframes/booknow-wireframe.png">
-</details>
-<details><summary>Contact</summary>
-<img src="docs/wireframes/wireframes-contact.png">
 </details>
 
 ## Technologies Used
