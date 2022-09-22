@@ -93,7 +93,7 @@ header nav {
 #home-image {
     height: 600px;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../css/images/home_main_.jpg') no-repeat fixed center;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/home_main_.jpg') no-repeat fixed center;
     background-size: cover;
 } 
 
@@ -246,22 +246,22 @@ header nav {
 }
 
 .card1 {
-    background: url(images/ziplinning_.jpg) center;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),  url(../images/ziplinning_.jpg) center;
     background-size: cover;
 }
 
 .card2 {
-    background: url(images/safari.jpg) center;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),  url(../images/safari.jpg) center;
     background-size: cover;
 }
 
 .card3 {
-    background: url(images/night_drive.jpg) center;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),  url(../images/night_drive.jpg) center;
     background-size: cover;
 }
 
 .card4 {
-    background: url(images/activities_cruise.jpg) center;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),  url(../images/activities_cruise.jpg) center;
     background-size: cover;
 }
 
@@ -365,27 +365,27 @@ footer a {
 }
 
 .staff-img {
-    background: url(../css/images/staff_1.jpg);
+    background: url(../images/staff_1.jpg);
 }
 
 .staff-img1 {
-    background: url(../css/images/staff_2.jpg);
+    background: url(../images/staff_2.jpg);
 }
 
 .staff-img2 {
-    background: url(../css/images/staff_3.jpg);
+    background: url(../images/staff_3.jpg);
 }
 
 .staff-img3 {
-    background: url(../css/images/staff_4.jpg);
+    background: url(../images/staff_4.jpg);
 }
 
 .staff-img4 {
-    background: url(../css/images/staff_5.jpg);
+    background: url(../images/staff_5.jpg);
 }
 
 .staff-img5 {
-    background: url(../css/images/staff_6.jpg);
+    background: url(../images/staff_6.jpg);
 }
 
 /* Booking form */
@@ -414,7 +414,7 @@ footer a {
 }
 
 .booking-section-img {
-    background-image: url(images/book_now_background.jpg);
+    background-image: url(../images/book_now_background.jpg);
     height: 600px;
     width: 100%;
     background-attachment: fixed;
