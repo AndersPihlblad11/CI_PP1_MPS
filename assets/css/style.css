@@ -417,7 +417,7 @@ footer a :hover {
 
 .booking-section-img {
     background-image: url(../images/book_now_background.jpg);
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -500,6 +500,12 @@ footer a :hover {
 }
 
 @media only screen and (max-width: 850px) {
+    .booking-form-box {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 0;
+    }
+
     #image-text {
         font-size: 50px;
         line-height: 5.5rem;
@@ -509,6 +515,10 @@ footer a :hover {
 
 
 @media only screen and (max-width: 650px) {
+    .booking-form-box {
+        font-size: 0.8rem;
+    }
+    
     .container {
         flex-direction: column;
         padding: 20px;
@@ -614,6 +624,13 @@ footer a :hover {
 }
 
 @media only screen and (max-width: 450px) {
+    .booking-form-box {
+        font-size: 0.6rem;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 0;
+    }
+
     .footer1, .footer2, .footer3 {
         padding: 0.5rem;
     }
