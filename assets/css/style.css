@@ -298,6 +298,10 @@ footer a {
     color: #f6f5f0;
 }
 
+footer a :hover {
+    transform: translateY(-10px);
+}
+
 /*Our story text and images*/
 .our-trusted-staff-heading {
     color: #749f78;
