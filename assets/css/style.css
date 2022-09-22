@@ -570,24 +570,7 @@ footer a :hover {
 }
 
 @media only screen and (max-width: 600px) {
-    #menu {
-        font-size: 0.8rem;
-    }
 
-    .button-general {
-    width: 100%;
-    color: white;
-    font-size: 0.8rem;
-    background: #749f78;
-    border: 0.2rem solid #749f78;
-    Border-radius: 6px;
-    outline: none;
-    margin-top: 0;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: rgb(0 0 0 / 5%) 1px 2px 5px 2px;
-    transition-duration: 0.5s;
-    }
 
     #home-image {
         height: 500px;
@@ -630,35 +613,33 @@ footer a :hover {
     }
 }
 
-@media only screen and (max-width: 538px) {
-    #menu {
-       font-size: 0.5rem;
-    }
-
-    .button-general {
-        width: 100%;
-        color: white;
-        font-size: 0.5rem;
-        background: #749f78;
-        border: 0.2rem solid #749f78;
-        Border-radius: 4px;
-        outline: none;
-        margin-top: 0;
-        text-align: center;
-        text-decoration: none;
-        box-shadow: rgb(0 0 0 / 5%) 1px 2px 5px 2px;
-        transition-duration: 0.5s;
-        }
-
-}
-
 @media only screen and (max-width: 450px) {
     .footer1, .footer2, .footer3 {
         padding: 0.5rem;
     }
+
+    #menu {
+        font-size: 0.8rem;
+    }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 407px) {
+    .button-general {
+        width: 100%;
+        color: white;
+        font-size: 0.8rem;
+        background: #749f78;
+        border: 0.2rem solid #749f78;
+        Border-radius: 6px;
+        outline: none;
+        margin-top: 0;
+        padding: 0.3rem 0.6rem;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: rgb(0 0 0 / 5%) 1px 2px 5px 2px;
+        transition-duration: 0.5s;
+    }
+
     #image-text {
         font-size: 40px;
     }
@@ -677,6 +658,7 @@ footer a :hover {
 }
 
 @media only screen and (max-width: 350px) {
+    
     #image-text {
         font-size: 35px;
         line-height: 4rem;
